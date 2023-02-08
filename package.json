@@ -1,0 +1,27 @@
+{
+  "name": "defi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/solidity": "^5.7.0",
+    "@uniswap/sdk-core": "^3.1.0",
+    "@uniswap/v2-sdk": "^3.0.1",
+    "abitype": "^0.2.5",
+    "ethers": "^5.7.2",
+    "jsbi": "^4.3.0",
+    "vitest": "^0.26.0"
+  }
+}
